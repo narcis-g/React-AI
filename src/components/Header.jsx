@@ -18,13 +18,10 @@ const Header = () => {
         </button>
       </nav>
       <h1 className="head_text">
-        Ask chatty for help
+        Chatty
         <br className="max-md:hidden" />
-        <span className="dark_blue_gradient">OpenAi GPT</span>
+        <span className="head_text">Enter a url below for a summary</span>
       </h1>
-      {/* <h2 className="desc">
-        
-      </h2> */}
     </header>
   );
 };
